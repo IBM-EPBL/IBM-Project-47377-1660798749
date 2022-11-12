@@ -24,9 +24,9 @@ Team member : SHEIKDAWOOD S
 
 Team member : ADHILKHAN K                                
    
-PHISHING:![image](https://user-images.githubusercontent.com/113851201/201483266-3acadec1-4435-4e70-b008-265db4f12b3f.png)
+# PHISHING:![image](https://user-images.githubusercontent.com/113851201/201483321-52bb0ea7-d55d-47a0-89e4-ede4ff2bc59c.png)
 
-# Project Objectives :
+# project Objectives :
 # By the end of this project :
 
     We'll be able to understand the problem to classify if it is a regression or a classification kind of problem.
