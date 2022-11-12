@@ -4,16 +4,16 @@
 ![20221016_205112](https://user-images.githubusercontent.com/113851201/196043815-d9fd3371-0bde-44f6-8972-c2679a4a24ef.jpg)
 
                                            WEB PHISHING DETECTION
-
 OBJECTIVE :
+       THERE ARE A NUMBER OF USERS WHO PURCHASE PRODUCTS ONLINE AND MAKE PAYMENTS THROUGH E-BANKING. THERE ARE E-BANKING WEBSITES THAT ASK USERS TO PROVIDE SENSITIVE DATA SUCH AS USERNAME, PASSWORD & CREDIT CARD DETAILS, ETC., OFTEN FOR MALICIOUS REASONS. THIS TYPE OF E-BANKING WEBSITE IS KNOWN AS A PHISHING WEBSITE. WEB SERVICE IS ONE OF THE KEY COMMUNICATIONS SOFTWARE SERVICES FOR THE INTERNET. WEB PHISHING IS ONE OF MANY SECURITY THREATS TO WEB SERVICES ON THE INTERNET. 
 
-	There are a number of users who purchase products online and make payments through e-banking. There are e-banking websites that ask users to provide sensitive data such as username, password & credit card details, etc., often for malicious reasons. This type of e-banking website is known as a phishing website. Web service is one of the key communications software services for the Internet. Web phishing is one of many security threats to web services on the Internet. 
-Common threats of web phishing:
-      •	Web phishing aims to steal private information, such as usernames, passwords, and credit card details, by way of impersonating a legitimate entity.
-      •	It will lead to information disclosure and property damage.
-      •	Large organizations may get trapped in different kinds of scams.
-Applying a machine-learning algorithm to detect Phishing websites.
-In order to detect and predict e-banking phishing websites, we proposed an intelligent, flexible and effective system that is based on using classification algorithms.  We implemented classification algorithms and techniques to extract the phishing datasets criteria to classify their legitimacy. The e-banking phishing website can be detected based on some important characteristics like URL and domain identity, and security and encryption criteria in the final phishing detection rate. Once a user makes a transaction online when he makes payment through an e-banking website our system will use a data mining algorithm to detect whether the e-banking website is a phishing website or not.
+COMMON THREATS OF WEB PHISHING:
+      •	WEB PHISHING AIMS TO STEAL PRIVATE INFORMATION, SUCH AS USERNAMES, PASSWORDS, AND CREDIT CARD DETAILS, BY WAY OF IMPERSONATING A LEGITIMATE ENTITY.
+      •	IT WILL LEAD TO INFORMATION DISCLOSURE AND PROPERTY DAMAGE.
+      •	LARGE ORGANIZATIONS MAY GET TRAPPED IN DIFFERENT KINDS OF SCAMS.
+APPLYING A MACHINE-LEARNING ALGORITHM TO DETECT PHISHING WEBSITES.
+IN ORDER TO DETECT AND PREDICT E-BANKING PHISHING WEBSITES, WE PROPOSED AN INTELLIGENT, FLEXIBLE AND EFFECTIVE SYSTEM THAT IS BASED ON USING CLASSIFICATION ALGORITHMS.  WE IMPLEMENTED CLASSIFICATION ALGORITHMS AND TECHNIQUES TO EXTRACT THE PHISHING DATASETS CRITERIA TO CLASSIFY THEIR LEGITIMACY. THE E-BANKING PHISHING WEBSITE CAN BE DETECTED BASED ON SOME IMPORTANT CHARACTERISTICS LIKE URL AND DOMAIN IDENTITY, AND SECURITY AND ENCRYPTION CRITERIA IN THE FINAL PHISHING DETECTION RATE. ONCE A USER MAKES A TRANSACTION ONLINE WHEN HE MAKES PAYMENT THROUGH AN E-BANKING WEBSITE OUR SYSTEM WILL USE A DATA MINING ALGORITHM TO DETECT WHETHER THE E-BANKING WEBSITE IS A PHISHING WEBSITE OR NOT.
+
 
 
 TEAM INFORMATION:   
@@ -32,6 +32,7 @@ TEAM INFORMATION:
 
 
 
+Technical Architecture: 
 
 ![image](https://user-images.githubusercontent.com/113851201/201480399-0d99e07b-29a1-4d3e-b41e-0ec90c350a31.png)
 
