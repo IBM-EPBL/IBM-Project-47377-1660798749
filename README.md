@@ -4,6 +4,9 @@
 ![20221016_205112](https://user-images.githubusercontent.com/113851201/196043815-d9fd3371-0bde-44f6-8972-c2679a4a24ef.jpg)
 
    #  Web Phishing Detection 👋
+   
+ ![image](https://user-images.githubusercontent.com/113851201/201483443-2e829e99-17df-41e4-a0a1-c81c479d7ff5.png)
+
 
 # IBM-Project-47377-1660798749
 
@@ -24,10 +27,10 @@ Team member : SHEIKDAWOOD S
 
 Team member : ADHILKHAN K                                
    
-# PHISHING:![image](https://user-images.githubusercontent.com/113851201/201483321-52bb0ea7-d55d-47a0-89e4-ede4ff2bc59c.png)
+
 
 # project Objectives :
-# By the end of this project :
+ By the end of this project :
 
     We'll be able to understand the problem to classify if it is a regression or a classification kind of problem.
     We will be able to know how to pre-process/clean the data using different data pre-processing techniques.
