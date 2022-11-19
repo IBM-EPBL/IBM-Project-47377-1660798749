@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This website is develop for identify the safety of url.">
+    <meta name="keywords" content="phishing url,phishing,cyber security,machine learning,classifier,python">
+    <meta name="author" content="pandi infotech">
+
+    <title>WEB PHISHING DETECTION</title>
+    <link rel="icon" href="assets/images/favicon.ico">
+    <link rel="stylesheet" href="static/style.css" type="text/css">
+
+
+
+
+    <!--bootstrap-->
+</head>
+<body>
+
+    <nav>
+
+      <div class="heading">
+
+        <h4><a  href="/">web phishing detection</a></h4>
+
+      </div>
+
+      <ul class="nav-links">
+
+        <li><a class="active" href="index.html">HOME</a></li>
+
+        <li><a href="#about">ABOUT</a></li>
+
+        <li><a href="pages/services.html">LEARN</a></li>
+
+        <li><a href="#contact">CONTACT</a></li>
+
+      </ul>
+
+    </nav>
+   </div><br><br><br><br>
+   <div class=" container">
+    <div class="row">
+        <div class="form" id="form1">
+            <h2>PHISHING URL DETECTION</h2>
+      	
+            <br>
+            <center><form action="/" method ="post">
+                <input type="text" class="form__input" name ='url' id="url" placeholder="Enter URL" required="" />
+                <label for="url" class="form__label">URL</label>
+                <button class="button" role="button" >Check here</button>
+            </form></center>
+           
+    </div>
+    <br><br>
+    <center><div class="col-md" id="form2">
+        
+        <br>
+        <h6 class = "right "><a href= {{ url }} target="_blank">{{ url }}</a></h6>
+           
+        <br>
+        <h3 id="prediction"></h3>
+        <button class="button2" id="button2" role="button" onclick="window.open('{{url}}')" target="_blank" >Still want to Continue</button>
+        <button class="button1" id="button1" role="button"  onclick="window.open('{{url}}')" target="_blank">Continue</button>
+    </div></center> 
+</div>
+<br>
+</div>
+
+<hr/>
+<div id="about">
+    <h3>ABOUT US</h3>
+    <h5>Detection Process. Detecting Phishing Domains is a classification problem, so it means we need labeled data which has samples as phish domains and legitimate domains in the training phase. The dataset which will be used in the training phase is a very important point to build successful detection mechanism.</h5>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyMThJtg7N7zly8fyGJFWFSOiYzxeS1SGH95FaHL2J&s ">
+</div><br><br><hr>
+<div id="learn">
+    <h3>
+        LEARN ABOUT WHAT IS PHISHING
+    </h3><br>
+    <div style="height:5% ;width:20%; background-color:aqua;">
+        <h4>DO  </h4>
+        <ul>
+            <li>    Do not open it. .. </li>
+            <li>Delete it immediately to prevent yourself from accidentally opening the message in the future.</li>
+            <li>Do not download any attachments accompanying the message. ...</li>
+            <li>Never click links that appear in the message.</li>
+            <li>Do not reply to the sender.</li>
+            <li>Ignore any requests the sender may solicit and do not call phone numbers provided in the message.</li>
+            <li>Report it. Help others avoid phishing attempts:     
+            <li>
+                Check if the attempt has already been reported.</li>
+                <li>If not, report it to UB. Attach the mail message with its mail headers in your message. Tell them you have changed your password.</li>
+                <li>Use the Federal Trade Commission's online Complaint Assistant if you have been phished</li></li>
+        
+        <li>Phone Calls
+        
+        <li>If you receive a phone call that seems to be a phishing attempt:</li>
+        
+            <li>Hang up or end the call. Be aware that area codes can be misleading.</li><li> If your Caller ID displays a local area code, this does not guarantee that the caller is local.</li>
+           <li> Do not respond to the caller’s requests. University at Buffalo, financial institutions and legitimate companies will never call you to request your PII.</li> <li>Never give PII to the incoming caller.
+        
+        
+            </li></li>
+            
+
+        </ul>
+    </div>
+    <img src="assets/images/Phishingweb.png" class="phishingweb">
+</div>
+
+<div id="contact">
+    <h1>Team ID : PNT2022TMID52463</h1>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+    
+    <script>
+        
+            let x = '{{xx}}';
+            let num = x*100;
+            if (0<=x && x<0.50){
+                num = 100-num;
+            }
+            let txtx = num.toString();
+            if(x<=1 && x>=0.50){
+                var label = "Website is "+txtx +"% safe to use...";
+                document.getElementById("prediction").innerHTML = label;
+                document.getElementById("button1").style.display="block";
+            }
+            else if (0<=x && x<0.50){
+                var label = "Website is "+txtx +"% unsafe to use..."
+                document.getElementById("prediction").innerHTML = label ;
+                document.getElementById("button2").style.display="block";
+            }
+        
+    </script>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><hr><div>
+   <footer><center><p>ABS PHISHING DETECTOR © 2022 PANDI INFOTECH</p></center></footer></div>
+</body>
+</html>
